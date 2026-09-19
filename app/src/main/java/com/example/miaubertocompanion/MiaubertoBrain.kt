@@ -6,7 +6,7 @@ import com.google.ai.client.generativeai.type.content
 class MiaubertoBrain {
     private val generativeModel = GenerativeModel(
         modelName = "gemini-1.5-flash",
-        apiKey = "TU_CLAVE_DE_GEMINI", // Reemplaza con tu clave de API
+        apiKey = "AQ.Ab8RN6It5OGNiRHfb-ReQHvOjVQfPqNRitRRojYuHTR5AJwHVA", // Reemplaza con tu clave de API
         systemInstruction = content {
             text("""
                 Eres Miauberto, un gato negro sarcástico, inteligente, leal pero muy altivo, que actúa como asistente virtual y compañero de bolsillo en el celular de tu humano.
